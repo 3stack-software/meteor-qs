@@ -1,13 +1,13 @@
 Package.describe({
   name: '3stack:qs',
-  version: '3.1.0',
+  version: '5.1.0',
   summary: 'https://github.com/hapijs/qs/graphs/contributors',
   git: 'https://github.com/3stack-software/meteor-qs',
   documentation: 'README.md'
 });
 
 Npm.depends({
-  'qs': '3.1.0'
+  'qs': '5.1.0'
 });
 
 Package.onUse(function (api) {
